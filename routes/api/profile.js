@@ -88,4 +88,3 @@ router.post(
   }
 );
 module.exports = router;
-// protected profile for current user's profile
