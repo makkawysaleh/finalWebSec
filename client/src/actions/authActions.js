@@ -40,6 +40,7 @@ export const loginUser = userData => dispatch => {
       })
     );
 };
+
 // Set logged in user
 export const setCurrentUser = decoded => {
   return {
@@ -47,6 +48,7 @@ export const setCurrentUser = decoded => {
     payload: decoded
   };
 };
+
 // Log user out
 export const logoutUser = () => dispatch => {
   // Remove token from localStorage

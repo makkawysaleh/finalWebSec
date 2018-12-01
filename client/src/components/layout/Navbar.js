@@ -19,8 +19,8 @@ class Navbar extends Component {
       <ul className="navbar-nav ml-auto">
         <li className="nav-item">
           <Link
-            onClick={this.onLogoutClick.bind(this)}
             to=""
+            onClick={this.onLogoutClick.bind(this)}
             className="nav-link"
           >
             <img
